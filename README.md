@@ -22,6 +22,9 @@ Project Deadline: Dec 31, 2017
 
 SSH Enable
 	# sudo raspi-config
+    
+picamera setting
+	# sudo apt-get install python3-picamera
 
 ## Chapter 2: Setting up S/W
 ### python 3
@@ -98,12 +101,19 @@ SSH Enable
     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.1.0/modules \
     -D BUILD_EXAMPLES=ON ..
     $ make -j4
+    $ sudo make install
+    $ sudo ldconfig
 
 ????
 
 	$ sudo pip3.6 install opencv-python
 
 ### MariaDB
+
+	$ sudo apt-get install mariadb-server
+
+출처: http://seodaeya.tistory.com/entry/Maria-DB-설치-in-Raspberry-Pi [티모스 실종사건]
+
 ## Chapter 3: Coding
 ## Chpater 4: Test
 ## Chapter 4: Result and Conclusion
