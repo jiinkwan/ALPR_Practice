@@ -115,5 +115,6 @@ picamera setting
 출처: http://seodaeya.tistory.com/entry/Maria-DB-설치-in-Raspberry-Pi [티모스 실종사건]
 
 ## Chapter 3: Coding
+[ALPR w/ TensorFlow](https://github.com/matthewearl/deep-anpr)
 ## Chpater 4: Test
 ## Chapter 4: Result and Conclusion
